@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Dynaway Homework
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="background">
+  <ion-header collapse="condense">
+    <ion-toolbar color="primary">
+      <ion-title size="large">Dynaway Homework</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-grid class="list">
+    <ion-row>
+      <ion-col *ngFor="let asset of assets" size-xl="4" size-md="6" size="12">
+        <app-asset-card [asset]="asset"></app-asset-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

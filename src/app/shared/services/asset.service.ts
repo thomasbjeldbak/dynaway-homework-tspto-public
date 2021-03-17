@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core'
 import { Observable, of } from 'rxjs'
 import { Asset } from '../models/asset.model'
 import { mockAssetHttpResponse } from './asset.test'
-import { delay, pluck } from 'rxjs/operators'
+import { delay } from 'rxjs/operators'
 import { getRandomInt } from '../functions'
 
 @Injectable({

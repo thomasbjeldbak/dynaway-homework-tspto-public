@@ -35,11 +35,11 @@ Luckily we use the Ionic framework and this is a perfect chance to use one of it
 In this task, pick an [Ionic component](https://ionicframework.com/docs/components) of your choice (e.g. alert, toast) and use it for displaying an error message if an error occurs.
 
 ## Task #3 💣
-We can now say that the component does all we needed from it. It fetches data and displays them properly, and if an error occurs, shows a message to the user. We could consider it done for now, and that is correct, although what if we forgot to add something? Or a simple bug appears in a few months time? We would have to recall how the component works to be sure that the everything is still working the intended way. Or someone else could be assigned to fix/extend the component so he/she would have to spend some time getting familiar to your code.
+We can now say that the component does all we needed from it. It fetches data and displays them properly, and if an error occurs, shows a message to the user. We could consider it done for now, and that is correct, although what if we forgot to add something? Or a simple bug appears in a few months time? We would have to recall how the component works to be sure that everything is still working the intended way. Or someone else could be assigned to fix/extend the component so he/she would have to spend some time getting familiar with your code.
 
 Fortunatelly there is a way how to prevent regression errors in the future and make sure that the component works 100% correctly all the time - unit tests! 🎉 We can imagine our component as a black box with some inputs and outputs so it is fairly simple to test it, feeding it with data and expecting the correct outputs.
 
-Angular comes with a testing framework bundled with it called Karma. We keep our unit tests in spec files (`*.spec.ts`) and execute them using Karma. So in this task, write a unit test(s) for the home component that we have been working on so far.
+Angular comes with a testing framework bundled with it called Karma. We keep our unit tests in spec files (`*.spec.ts`) and execute them using `npm run test`. So in this task, write a unit test(s) for the home component that we have been working on so far.
 
 A few notes:
 * Other components and services are already tested. Feel free to get inspired there!

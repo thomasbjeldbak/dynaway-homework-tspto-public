@@ -5,6 +5,8 @@ This is a small demo of an Angular & Ionic application containing a few tasks to
 
 Follow the instructions in the next section to get your project set up properly. Creating a commit for each of the tasks is suggested. Get back to us once you're confident with your code and remember - it is the quality of your code and the way you approach the problems that matters the most, not whether you've completed all the tasks and how fast! 😉
 
+You might be familiar with Angular but not Ionic - and this is completely fine. Think of Ionic as a library of UI components for now and don't get confused with other features Ionic can bring. We won't go further than importing some ready-to-use components from the Ionic library in this project.
+
 ## Getting started
 0. Fork the repository
 1. Make sure you have [Node.js](https://nodejs.org/en/) (v10+) and [npm](https://www.npmjs.com/) installed. If not, follow the links and find the installation instructions

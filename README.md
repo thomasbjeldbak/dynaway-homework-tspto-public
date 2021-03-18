@@ -30,7 +30,7 @@ When you complete this task, your list page should show assets like this:
 ## Task #2 💡
 Data are now correctly fetched and displayed, but what if an error happens? ⚠️ And that can happen quite easily - the server can be temporarily down or the client just loses his internet connection for a while. There is a line of code simulating exactly this, adding roughly 10% chance of each request to fail.  Suddenly our app has nothing to show and we should notify the user somehow.
 
-Luckily we use the Ionic framework and this is a perfect chance to use one of its UI components. Just import them to the file and they are ready to use - as easy as it seems. That way we can easily extend our app to show some kind of a message when an error happens, informing the user about what has just happened.
+Luckily we use the Ionic framework and this is a perfect chance to use one of its UI components. Just import them to the file and they are ready to use - as easy as it seems. That way we can easily extend our app to show some kind of a message when an error occurs, informing the user about what has just happened.
 
 In this task, pick an [Ionic component](https://ionicframework.com/docs/components) of your choice (e.g. alert, toast) and use it for displaying an error message if an error occurs.
 

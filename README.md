@@ -3,7 +3,7 @@ This is a small demo of an Angular & Ionic application containing a few tasks to
 
 **In case you need help or have any comments feel free to reach out to me at jkr@dynaway.com**
 
-Follow the instructions in the next section get your project set up properly. Creating a commit for each of the tasks is suggested. Get back to us once you're confident with your code and remember - it is the quality of your code and the way you approach the problems that matters the most, not whether you've completed all the tasks and how fast! 😉
+Follow the instructions in the next section to get your project set up properly. Creating a commit for each of the tasks is suggested. Get back to us once you're confident with your code and remember - it is the quality of your code and the way you approach the problems that matters the most, not whether you've completed all the tasks and how fast! 😉
 
 ## Getting started
 0. Fork the repository

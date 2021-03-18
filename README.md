@@ -1,7 +1,7 @@
 # Dynaway Homework
-This is a small demo of an Angular & Ionic application containing a few tasks to complete as small coding challenges. You don't need to complete all of the tasks, it is completely up to you how many of them you will complete and how much time you'll spend on them.
+This is a small demo of an Angular & Ionic application containing a few tasks to complete as small coding challenges. You don't need to complete all of the tasks, it is completely up to you how many of them you will work on and how much time you'll spend on them.
 
-In case you need help or have any comments feel free to reach out to me at jkr@dynaway.com
+**In case you need help or have any comments feel free to reach out to me at jkr@dynaway.com**
 
 Follow the instructions in the next section get your project set up properly. Creating a commit for each of the tasks is suggested. Get back to us once you're confident with your code and remember - it is the quality of your code and the way you approach the problems that matters the most, not whether you've completed all the tasks and how fast! 😉
 

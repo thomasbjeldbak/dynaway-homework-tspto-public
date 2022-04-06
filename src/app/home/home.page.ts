@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component } from '@angular/core'
 import { Asset } from '../shared/models/asset.model'
 import { AssetService } from '../shared/services/asset.service'
 

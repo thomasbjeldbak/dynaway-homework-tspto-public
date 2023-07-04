@@ -25,7 +25,7 @@ The app essentially consists of two pages:
 
 When you complete this task, your list page should show assets like this:
 
-![End of 1st task screenshot](./readme-assets/screen01.png)
+<img src="./readme-assets/screen01.png" alt='End of 1st task screenshot' width="250">
 
 ## Task #2 💡
 Data are now correctly fetched and displayed, but what if an error happens? ⚠️ And that can happen quite easily - the server can be temporarily down or the client just loses his internet connection for a while. There is a line of code simulating exactly this, adding roughly 10% chance of each request to fail. Suddenly our app has nothing to show, and we should notify the user somehow.
@@ -57,7 +57,7 @@ We would like to increase the perceived performance of the app and one of the wa
 
 So if you'd like to make our home component nearly perfect, add those skeletons to the page (as seen on the screenshot) and substitute them with real data once ready.
 
-![End of 4th task screenshot](./readme-assets/screen02.png)
+<img src="./readme-assets/screen02.png" alt='End of 4th task screenshot' width="250">
 
 ## Task #5 (optional) 📋
 What if we wanted to communicate the requirements of how this page should work or write a test case covering some core functionality? Here, we discovered a way of doing both by incorporating [Behaviour-Driven Development (BDD)](https://cucumber.io/docs/bdd/) into our development workflow.

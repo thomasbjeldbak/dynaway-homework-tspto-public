@@ -1,7 +1,7 @@
 # Dynaway Homework
 This is a small demo of an Angular & Ionic application containing a few tasks to complete as small coding challenges. You don't need to complete all the tasks, it is completely up to you how many of them you will work on and how much time you'll spend on them.
 
-**In case you need help or have any comments feel free to reach out to me at jkr@dynaway.com**
+**In case you need help or have any comments feel free to reach out to us at kacan@dynaway.com**
 
 Follow the instructions in the next section to get your project set up properly. Creating a commit for each of the tasks is suggested. Get back to us once you're confident with your code and remember - it is the quality of your code and the way you approach the problems that matter the most, not whether you've completed all the tasks and how fast! 😉
 
@@ -25,7 +25,7 @@ The app essentially consists of two pages:
 
 When you complete this task, your list page should show assets like this:
 
-<img src="https://github.com/josef-kriz/dynaway-homework/blob/master/readme-assets/screen01.png" width="250" alt="List page">
+![End of 1st task screenshot](./src/assets/1st%20task%20end.png)
 
 ## Task #2 💡
 Data are now correctly fetched and displayed, but what if an error happens? ⚠️ And that can happen quite easily - the server can be temporarily down or the client just loses his internet connection for a while. There is a line of code simulating exactly this, adding roughly 10% chance of each request to fail. Suddenly our app has nothing to show, and we should notify the user somehow.
@@ -57,7 +57,7 @@ We would like to increase the perceived performance of the app and one of the wa
 
 So if you'd like to make our home component nearly perfect, add those skeletons to the page (as seen on the screenshot) and substitute them with real data once ready.
 
-<img src="https://github.com/josef-kriz/dynaway-homework/blob/master/readme-assets/screen02.png" width="250" alt="Skeleton cards">
+![End of 4th task screenshot](./src/assets/4th%20task%20end.png)
 
 ## Task #5 (optional) 📋
 What if we wanted to communicate the requirements of how this page should work or write a test case covering some core functionality? Here, we discovered a way of doing both by incorporating [Behaviour-Driven Development (BDD)](https://cucumber.io/docs/bdd/) into our development workflow.

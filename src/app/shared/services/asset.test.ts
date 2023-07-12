@@ -47,7 +47,7 @@ export const mockAssets: Asset[] = [{
 /*
   This is how would a response from the server look like
  */
-export const mockAssetHttpResponse: any = {
+export const mockAssetHttpResponse: {ok: boolean; data: Asset[]} = {
   ok: true,
   data: mockAssets,
 }

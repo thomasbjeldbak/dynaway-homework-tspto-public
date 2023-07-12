@@ -8,6 +8,7 @@ import { getRandomInt } from '../functions'
 @Injectable({
   providedIn: 'root',
 })
+
 export class AssetService {
 
   constructor() {
@@ -17,7 +18,7 @@ export class AssetService {
     return of(mockAssetHttpResponse.data).pipe(
       delay(getRandomInt(1000) + 500), // fake random http delay,
       tap(() => { // a small chance for the data fetch to error
-        if (getRandomInt(10) % 10 === 0) throw Error('Http error')
+        if (getRandomInt(10) % 10 === 0) throw Error('HTTP Error')
       }),
     )
   }
